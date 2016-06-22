@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teo Georgiev</title>
+    <link>https://georgit.github.io/</link>
+    <description>Recent content on Teo Georgiev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Teo Georgiev</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://georgit.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Composite OS</title>
+      <link>https://georgit.github.io/project/composite/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgit.github.io/project/composite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About this site</title>
+      <link>https://georgit.github.io/post/firstPost/</link>
+      <pubDate>Wed, 20 Apr 2016 10:00:00 +0000</pubDate>
+      
+      <guid>https://georgit.github.io/post/firstPost/</guid>
+      <description>&lt;p&gt;This is my research site!
+I&amp;rsquo;ve always put off making one because I figure everyone who wanted to find me could do so already, and I have no idea what to write about, but now that I&amp;rsquo;m publishing papers, I figure I might as well.
+Not sure that there will be a lot of posts here, but I &lt;em&gt;am&lt;/em&gt; sure there will be no Facebook political opinions, since I think we&amp;rsquo;re all tired of those.
+Please also note that as my work is in systems, this site is not going to be flashy or fancy.
+This is by design.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://georgit.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgit.github.io/home/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;biography:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Biography&lt;/h1&gt;
+
+&lt;p&gt;I am a PhD student at George Washington University, working with &lt;a href=&#34;https://www.seas.gwu.edu/~gparmer/&#34;&gt;Dr. Gabe Parmer&lt;/a&gt;, mostly on &lt;a href=&#34;http://composite.seas.gwu.edu/&#34;&gt;Composite&lt;/a&gt;.
+So far, I have contributed a bit to CBufs and am now working on something more security-based.
+Prior to starting my PhD, I worked at Microsoft in Redmond WA, mostly with iOS devices.
+Prior to &lt;em&gt;that&lt;/em&gt;, I attended Princeton University majoring in Computer Science in the School of Engineering and Applied Science, and was a member of the Princeton Charter Club, as tech chair.&lt;/p&gt;
+
+&lt;p&gt;In my spare time - and that isn&amp;rsquo;t much - I try to read books and play various RPGs.
+I take care of a cat named Pisko (roughly translates to &amp;ldquo;squeaky&amp;rdquo;) and a Russian tortoise named Griswold.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CBufs: Efficient, System-Wide Memory Mangement and Sharing</title>
+      <link>https://georgit.github.io/publication/ismm2016/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgit.github.io/publication/ismm2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teaching</title>
+      <link>https://georgit.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgit.github.io/home/teaching/</guid>
+      <description>&lt;p&gt;I was a teaching assistant for the following courses at George Washington University:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CS1121: Introduction to C Programming&lt;/li&gt;
+&lt;li&gt;(more courses to be added)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>books</title>
+      <link>https://georgit.github.io/home/books/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://georgit.github.io/home/books/</guid>
+      <description>&lt;p&gt;Here is a small selection of books I&amp;rsquo;ve read recently:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;The Vital Question&lt;/em&gt;, by Nick Lane&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Innovators&lt;/em&gt;, by Walter Isaacson&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;The Emperor&amp;rsquo;s Soul&lt;/em&gt;, by Brandon Sanderson&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;I&amp;rsquo;m Feeling Lucky: The Confessions of Google Employee Number 59&lt;/em&gt;, by Douglas Edwards&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

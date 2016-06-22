@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme" content="hugo-academic">
+    <meta name="generator" content="Hugo 0.16-DEV" />
+    <meta name="author" content="Teo Georgiev">
+    <meta name="description" content="PhD Student, Computer Science">
+
+    <link rel="stylesheet" href="https://georgit.github.io/css/highlight.min.css">
+    <link rel="stylesheet" href="https://georgit.github.io/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://georgit.github.io/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://georgit.github.io/css/academicons.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+    <link rel="stylesheet" href="https://georgit.github.io/css/hugo-academic.css">
+    
+
+
+    <link rel="shortcut icon" href="https://georgit.github.io/img/favicon.png" type="image/x-icon">
+    <link rel="canonical" href="https://georgit.github.io/publication/ismm2016/">
+
+    <title>CBufs: Efficient, System-Wide Memory Mangement and Sharing | Teo Georgiev</title>
+
+</head>
+<body id="top">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+    <div class="container">
+
+        
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://georgit.github.io/">Teo Georgiev</a>
+        </div>
+
+        
+        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+            
+            <ul class="nav navbar-nav navbar-right">
+                
+                <li class="nav-item"><a href="https://georgit.github.io/#top">Home</a></li>
+                
+                <li class="nav-item"><a href="https://georgit.github.io/#publications">Publications</a></li>
+                
+                <li class="nav-item"><a href="https://georgit.github.io/#posts">Posts</a></li>
+                
+                <li class="nav-item"><a href="https://georgit.github.io/#projects">Projects</a></li>
+                
+                <li class="nav-item"><a href="https://georgit.github.io/#teaching">Teaching</a></li>
+                
+                <li class="nav-item"><a href="https://georgit.github.io/#books">Bookshelf</a></li>
+                
+                <li class="nav-item"><a href="https://georgit.github.io/#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="pub-title">
+            <h1 itemprop="name">CBufs: Efficient, System-Wide Memory Mangement and Sharing</h1>
+            <span class="pub-authors" itemprop="author">
+                
+                Y. Ren, G. Parmer, T. Georgiev, G. Bloom
+                
+            </span>
+            <span class="pull-right">
+                
+<div class="share-box">
+    <ul class="share">
+        <li>
+            <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fgeorgit.github.io%2fpublication%2fismm2016%2f" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=CBufs%3a%20Efficient%2c%20System-Wide%20Memory%20Mangement%20and%20Sharing&amp;url=https%3a%2f%2fgeorgit.github.io%2fpublication%2fismm2016%2f" target="_blank">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fgeorgit.github.io%2fpublication%2fismm2016%2f&amp;title=CBufs%3a%20Efficient%2c%20System-Wide%20Memory%20Mangement%20and%20Sharing" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </li>
+        <li>
+            <a class="weibo" href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fgeorgit.github.io%2fpublication%2fismm2016%2f&amp;title=CBufs%3a%20Efficient%2c%20System-Wide%20Memory%20Mangement%20and%20Sharing" target="_blank">
+                <i class="fa fa-weibo"></i>
+            </a>
+        </li>
+        <li>
+            <a class="email" href="mailto:?subject=CBufs%3a%20Efficient%2c%20System-Wide%20Memory%20Mangement%20and%20Sharing&amp;body=https%3a%2f%2fgeorgit.github.io%2fpublication%2fismm2016%2f">
+                <i class="fa fa-envelope"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+            </span>
+        </div>
+
+        
+
+        <h3>Abstract</h3>
+        <p class="pub-abstract" itemprop="text">Modern systems are composed of many different protection domains separating privilege levels, subsystems, users, clients, and software of differing levels of assurance. System-wide memory management must consider not only allocation to single processes, but also efficient sharing of data across protection domains, and the allocation of memory based on the performance of applications that span multiple protection domains. This paper introduces the CBUF system for the global management of virtual and physical memory, including zero-copy sharing between protection domains. We present the design and implementation of both garbage collection techniques to enable efficient sharing, and policies that balance memory between protection domains specifically to satisfy system and application constraints such as quality of service. We show that a CBUF-enabled webserver achieves over a factor of 2.5 throughput speedup while using less processing time than Apache on Linux, and that the system can intentionally control system throughput through intelligent memory allocation.</p>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+                    <div class="col-xs-12 col-sm-9">CBufs: Efficient, System-Wide Memory Management and Sharing, in the Proceedings of the ACM SIGPLAN International Symposium on Memory Management (ISMM), 2016</div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+                    <div class="col-xs-12 col-sm-9" itemprop="datePublished">September, 2015</div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="row" style="padding-top: 10px">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+                    <div class="col-xs-12 col-sm-9">
+
+                        
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://www.seas.gwu.edu/~gparmer/publications/ismm16cbuf.pdf">PDF</a>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <div class="visible-xs space-below"></div>
+
+        <div class="space-below"></div>
+
+        <div class="article-style"></div>
+
+    </div>
+
+    <nav>
+    <ul class="pager">
+        
+
+        
+    </ul>
+</nav>
+
+
+</div>
+<footer class="site-footer">
+    <div class="container">
+        <p class="powered-by">
+
+            &copy; 2016 Teo Georgiev &middot; 
+
+            Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+            <span class="pull-right"><a href="#" id="back_to_top"><span class="button_icon"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></span></a></span>
+
+        </p>
+    </div>
+</footer>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+        <script src="https://georgit.github.io/js/jquery-1.12.3.min.js"></script>
+        <script src="https://georgit.github.io/js/bootstrap.min.js"></script>
+        <script src="https://georgit.github.io/js/hugo-academic.js"></script>
+        
+
+        
+
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+        </script>
+        <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+        
+
+    </body>
+</html>
+

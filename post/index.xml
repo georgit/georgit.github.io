@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Teo Georgiev</title>
+    <link>https://georgit.github.io/post/</link>
+    <description>Recent content in Posts on Teo Georgiev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Teo Georgiev</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 10:00:00 +0000</lastBuildDate>
+    <atom:link href="https://georgit.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About this site</title>
+      <link>https://georgit.github.io/post/firstPost/</link>
+      <pubDate>Wed, 20 Apr 2016 10:00:00 +0000</pubDate>
+      
+      <guid>https://georgit.github.io/post/firstPost/</guid>
+      <description>&lt;p&gt;This is my research site!
+I&amp;rsquo;ve always put off making one because I figure everyone who wanted to find me could do so already, and I have no idea what to write about, but now that I&amp;rsquo;m publishing papers, I figure I might as well.
+Not sure that there will be a lot of posts here, but I &lt;em&gt;am&lt;/em&gt; sure there will be no Facebook political opinions, since I think we&amp;rsquo;re all tired of those.
+Please also note that as my work is in systems, this site is not going to be flashy or fancy.
+This is by design.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
