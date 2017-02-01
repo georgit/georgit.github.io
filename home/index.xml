@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Teo Georgiev</title>
-    <link>https://georgit.github.io/home/</link>
+    <link>https://georgit.github.io/home/index.xml</link>
     <description>Recent content in Homes on Teo Georgiev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -18,7 +18,7 @@
       <guid>https://georgit.github.io/home/about/</guid>
       <description>
 
-&lt;h1 id=&#34;biography:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Biography&lt;/h1&gt;
+&lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
 
 &lt;p&gt;I am a PhD student at George Washington University, working with &lt;a href=&#34;https://www.seas.gwu.edu/~gparmer/&#34;&gt;Dr. Gabe Parmer&lt;/a&gt;, mostly on &lt;a href=&#34;http://composite.seas.gwu.edu/&#34;&gt;Composite&lt;/a&gt;.
 So far, I have contributed a bit to CBufs and am now working on something more security-based.

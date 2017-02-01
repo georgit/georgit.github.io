@@ -2,12 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Microkernel on Teo Georgiev</title>
-    <link>https://georgit.github.io/tags/microkernel/</link>
+    <link>https://georgit.github.io/tags/microkernel/index.xml</link>
     <description>Recent content in Microkernel on Teo Georgiev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Teo Georgiev</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://georgit.github.io/tags/microkernel/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
