@@ -31,9 +31,10 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://georgit.github.io/home/books/</guid>
-      <description>&lt;p&gt;Here is a small selection of books I&amp;rsquo;ve read recently:&lt;/p&gt;
+      <description>&lt;p&gt;Here is a small selection of books I&amp;rsquo;ve enjoyed. Not all are related to Systems, much less CS.&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Caesar, Life of a Colossus&lt;/em&gt;, by Adrian Goldsworthy&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;The Vital Question&lt;/em&gt;, by Nick Lane&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;The Innovators&lt;/em&gt;, by Walter Isaacson&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;The Emperor&amp;rsquo;s Soul&lt;/em&gt;, by Brandon Sanderson&lt;/li&gt;
@@ -51,8 +52,8 @@
       <description>&lt;p&gt;True to my word, this is the first post in a long time.
 What have I been working on research-wise?&lt;/p&gt;
 
-&lt;p&gt;As some of you know, I&amp;rsquo;m working on the Composite component-based operating sytem.
-More on that can be found &lt;a href=&#34;https://composite.seas.gwu.edu&#34;&gt;here&lt;/a&gt;.
+&lt;p&gt;As some of you know, I&amp;rsquo;m working on the Composite component-based operating system.
+More on that can be found &lt;a href=&#34;http://composite.seas.gwu.edu&#34;&gt;here&lt;/a&gt;.
 Specifically, my current work is on the shared memory pieces of Composite, and the booter.&lt;/p&gt;
 
 &lt;p&gt;Composite splits the OS into multiple components identified by numbered ids, moving as many as safely possible into user space, leaving only a tiny kernel.
@@ -85,7 +86,7 @@ They wouldn&amp;rsquo;t be forks of each other, but you could switch from one to
 &lt;p&gt;One reason is just to provide functionality similar to POSIX.
 Another is that with this technique, we can provide continued execution to the system.
 There is a brief pause while forking occurs but not while we decide whether or not O was trustworthy.
-We can also do nModular Redundancy by forking components as existing ones fail.
+We can also do n-Modular Redundancy by forking components as existing ones fail.
 This is the immediate focus.&lt;/p&gt;
 
 &lt;p&gt;But part of the reason I&amp;rsquo;m working on this is simply because it&amp;rsquo;s fun, not because it has immediate applications.
@@ -126,7 +127,7 @@ This is by design.&lt;/p&gt;
 
 &lt;h1 id=&#34;biography&#34;&gt;Biography&lt;/h1&gt;
 
-&lt;p&gt;I am a PhD student at George Washington University, working with &lt;a href=&#34;https://www.seas.gwu.edu/~gparmer/&#34;&gt;Dr. Gabe Parmer&lt;/a&gt;, mostly on &lt;a href=&#34;http://composite.seas.gwu.edu/&#34;&gt;Composite&lt;/a&gt;.
+&lt;p&gt;I am a PhD student at George Washington University, working with &lt;a href=&#34;http://www.seas.gwu.edu/~gparmer/&#34;&gt;Dr. Gabe Parmer&lt;/a&gt;, mostly on &lt;a href=&#34;http://composite.seas.gwu.edu/&#34;&gt;Composite&lt;/a&gt;.
 So far, I have contributed a bit to CBufs and am now working on something more security-based.
 Prior to starting my PhD, I worked at Microsoft in Redmond WA, mostly with iOS devices.
 Prior to &lt;em&gt;that&lt;/em&gt;, I attended Princeton University majoring in Computer Science in the School of Engineering and Applied Science, and was a member of the Princeton Charter Club, as tech chair.&lt;/p&gt;
@@ -137,7 +138,7 @@ I take care of a cat named Pisko (roughly translates to &amp;ldquo;squeaky&amp;r
     </item>
     
     <item>
-      <title>CBufs: Efficient, System-Wide Memory Mangement and Sharing</title>
+      <title>CBufs: Efficient, System-Wide Memory Management and Sharing</title>
       <link>https://georgit.github.io/publication/ismm2016/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       

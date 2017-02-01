@@ -11,7 +11,7 @@
     <atom:link href="https://georgit.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>CBufs: Efficient, System-Wide Memory Mangement and Sharing</title>
+      <title>CBufs: Efficient, System-Wide Memory Management and Sharing</title>
       <link>https://georgit.github.io/publication/ismm2016/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       

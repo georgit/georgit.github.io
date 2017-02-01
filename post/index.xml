@@ -19,8 +19,8 @@
       <description>&lt;p&gt;True to my word, this is the first post in a long time.
 What have I been working on research-wise?&lt;/p&gt;
 
-&lt;p&gt;As some of you know, I&amp;rsquo;m working on the Composite component-based operating sytem.
-More on that can be found &lt;a href=&#34;https://composite.seas.gwu.edu&#34;&gt;here&lt;/a&gt;.
+&lt;p&gt;As some of you know, I&amp;rsquo;m working on the Composite component-based operating system.
+More on that can be found &lt;a href=&#34;http://composite.seas.gwu.edu&#34;&gt;here&lt;/a&gt;.
 Specifically, my current work is on the shared memory pieces of Composite, and the booter.&lt;/p&gt;
 
 &lt;p&gt;Composite splits the OS into multiple components identified by numbered ids, moving as many as safely possible into user space, leaving only a tiny kernel.
@@ -53,7 +53,7 @@ They wouldn&amp;rsquo;t be forks of each other, but you could switch from one to
 &lt;p&gt;One reason is just to provide functionality similar to POSIX.
 Another is that with this technique, we can provide continued execution to the system.
 There is a brief pause while forking occurs but not while we decide whether or not O was trustworthy.
-We can also do nModular Redundancy by forking components as existing ones fail.
+We can also do n-Modular Redundancy by forking components as existing ones fail.
 This is the immediate focus.&lt;/p&gt;
 
 &lt;p&gt;But part of the reason I&amp;rsquo;m working on this is simply because it&amp;rsquo;s fun, not because it has immediate applications.
