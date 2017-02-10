@@ -20,9 +20,9 @@
 
 
     <link rel="shortcut icon" href="https://georgit.github.io/img/favicon.png" type="image/x-icon">
-    <link rel="canonical" href="https://georgit.github.io/post/post_02/">
+    <link rel="canonical" href="https://georgit.github.io/post/post_03_futd/">
 
-    <title>Component Forking | Teo Georgiev</title>
+    <title>A Fire Upon The Deep | Teo Georgiev</title>
 
 </head>
 <body id="top">
@@ -74,14 +74,14 @@
 
         
 
-        <h1 itemprop="name">Component Forking</h1>
+        <h1 itemprop="name">A Fire Upon The Deep</h1>
 
         
 
 <div class="article-metadata">
 
     <span class="article-date">
-        <time datetime="2017-01-31 10:00:00 &#43;0000 UTC" itemprop="datePublished">Tue, 31 Jan 2017</time>
+        <time datetime="2017-02-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">Thu, 9 Feb 2017</time>
     </span>
 
     
@@ -94,27 +94,27 @@
 <div class="share-box">
     <ul class="share">
         <li>
-            <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_02%2f" target="_blank">
+            <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_03_futd%2f" target="_blank">
                 <i class="fa fa-facebook"></i>
             </a>
         </li>
         <li>
-            <a class="twitter" href="https://twitter.com/intent/tweet?text=Component%20Forking&amp;url=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_02%2f" target="_blank">
+            <a class="twitter" href="https://twitter.com/intent/tweet?text=A%20Fire%20Upon%20The%20Deep&amp;url=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_03_futd%2f" target="_blank">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
         <li>
-            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_02%2f&amp;title=Component%20Forking" target="_blank">
+            <a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_03_futd%2f&amp;title=A%20Fire%20Upon%20The%20Deep" target="_blank">
                 <i class="fa fa-linkedin"></i>
             </a>
         </li>
         <li>
-            <a class="weibo" href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_02%2f&amp;title=Component%20Forking" target="_blank">
+            <a class="weibo" href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_03_futd%2f&amp;title=A%20Fire%20Upon%20The%20Deep" target="_blank">
                 <i class="fa fa-weibo"></i>
             </a>
         </li>
         <li>
-            <a class="email" href="mailto:?subject=Component%20Forking&amp;body=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_02%2f">
+            <a class="email" href="mailto:?subject=A%20Fire%20Upon%20The%20Deep&amp;body=https%3a%2f%2fgeorgit.github.io%2fpost%2fpost_03_futd%2f">
                 <i class="fa fa-envelope"></i>
             </a>
         </li>
@@ -128,48 +128,28 @@
 
 
         <div class="article-style" itemprop="articleBody">
-            <p>True to my word, this is the first post in a long time.
-What have I been working on research-wise?</p>
+            <p>These posts will usually be about research, but this wouldn&rsquo;t really be <em>my</em> site if I didn&rsquo;t talk about a book now and then. And the best thing I&rsquo;ve read in a long time happens to also be in the realm of Computer Science Fiction, so that&rsquo;s just too perfect to pass up.</p>
 
-<p>As some of you know, I&rsquo;m working on the Composite component-based operating system.
-More on that can be found <a href="http://composite.seas.gwu.edu">here</a>.
-Specifically, my current work is on the shared memory pieces of Composite, and the booter.</p>
+<p>The high level overview is that in the distant future, Indiana Jones-style archeologists awaken a Transcended AI that&rsquo;s evil and can operate on a galactic scale. What follows is two storylines, one involving several protagonists from a technologically-advanced society trying to stop the evil and one on a medieval alien word where two kids are just trying to survive. I won&rsquo;t spoil the plot beyond that.</p>
 
-<p>Composite splits the OS into multiple components identified by numbered ids, moving as many as safely possible into user space, leaving only a tiny kernel.
-This lets us do some neat things like reboot individual components on failure and provide more security.</p>
+<p><img align="right" src="/img/futd.jpg"></p>
 
-<p>These components are booted up by the booter, which is also a user-level component.
-There&rsquo;s another component that provides shared memory to the system in the form of cbufs (Composite buffers).
-The booter makes a bunch of these (about a dozen, depending) per component, maps them into its address space, and then kicks the component off.</p>
+<p>So what&rsquo;s there to like?</p>
 
-<p>I found this interesting in part because of how much it simplified my understanding of what&rsquo;s needed to make a component.
-Once you have the component&rsquo;s memory, that&rsquo;s all you need to tell the kernel to get it running (there&rsquo;s also threads, you need threads too).</p>
+<ul>
+<li>Vernor Vinge balances world-building with not requiring readers to play detective with the story.</li>
+<li>One of the alien species, the Tines, is a canid race where each person consists of a group mind of 4-8 doggies. This is remarkably fresh, and part of the plot revolves around other characters being unsure what to make of the Tines.</li>
+<li>Another of the alien species is a plant that&rsquo;s hooked up to a wheelchair so it can talk and move. And they go around the universe trading.</li>
+<li>The science makes sense (roughly, given we haven&rsquo;t hit the singularity yet), but isn&rsquo;t hard to understand if you don&rsquo;t do CS. You basically need to know what an AI and a spaceship are.</li>
+<li>Vernor Vinge can make a rounder character in two 15 page chapters than most authors can in an entire series.</li>
+<li>No allegory, just applicability.</li>
+</ul>
 
-<p>What I&rsquo;ve been trying to do is take advantage of this property by building functionality into the booter that lets it duplicate a component.
-We call this &ldquo;forking&rdquo;, after the POSIX term, using the notation O for the original component and F for the fork.
-Forking a component creates a copy of it with a new id, but in all other ways the same as the original.
-The cbuf manager comes in handy here because it can expedite the process by mapping O&rsquo;s cbufs into F.</p>
+<p>What&rsquo;s not to like?</p>
 
-<p>The overall process should sound familiar to those readers who&rsquo;ve worked with POSIX, but there are some things we can&rsquo;t mimic, or just haven&rsquo;t gotten around to yet.
-Some of these are design choices and some are due to us not using a monolithic system.
-The POSIX interface was made in the days of single-core systems and is somewhat hamstrung by assumptions made at the time.
-For one, our process tries to hide from the component that it was forked, while POSIX explicitly notifies the child and parent of their identities.</p>
-
-<p>So now we have a way to take a component O and create a forked copy of it (F).
-What does this give us?
-Composite could already reboot components, and quite frequently.
-So instead of making a copy of the component, couldn&rsquo;t we just reboot it, treating  the suspicious behavior as a failure?
-And - although I haven&rsquo;t gone into this in much detail - why not just boot several instances of the same component at the start of execution?
-They wouldn&rsquo;t be forks of each other, but you could switch from one to the other.</p>
-
-<p>One reason is just to provide functionality similar to POSIX.
-Another is that with this technique, we can provide continued execution to the system.
-There is a brief pause while forking occurs but not while we decide whether or not O was trustworthy.
-We can also do n-Modular Redundancy by forking components as existing ones fail.
-This is the immediate focus.</p>
-
-<p>But part of the reason I&rsquo;m working on this is simply because it&rsquo;s fun, not because it has immediate applications.
-Research is like that a lot; my work won&rsquo;t be featured in the next quarterly earnings report of any major company.</p>
+<ul>
+<li>It&rsquo;s 600 pages. But I assure you, after page 80, I couldn&rsquo;t put this down. Put this way: I did not feel a single page was wasted.</li>
+</ul>
 
         </div>
 
@@ -178,11 +158,9 @@ Research is like that a lot; my work won&rsquo;t be featured in the next quarter
     <nav>
     <ul class="pager">
         
-        <li class="previous"><a href="https://georgit.github.io/post/firstPost/"><span aria-hidden="true">&larr;</span> About this site</a></li>
+        <li class="previous"><a href="https://georgit.github.io/post/post_02/"><span aria-hidden="true">&larr;</span> Component Forking</a></li>
         
 
-        
-        <li class="next"><a href="https://georgit.github.io/post/post_03_futd/">A Fire Upon The Deep <span aria-hidden="true">&rarr;</span></a></li>
         
     </ul>
 </nav>
